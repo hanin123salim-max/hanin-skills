@@ -14,7 +14,6 @@ LIB=~/hanin-skills
 if [ -d "$LIB/.git" ]; then git -C "$LIB" pull --quiet; else git clone --quiet --depth 1 https://github.com/hanin123salim-max/hanin-skills.git "$LIB"; fi
 ```
 
-إذا كان المستودع خاصًّا وفشل السحب: اربطه بالجلسة عبر أداة إضافة المستودعات، ثم أعد المحاولة.
 
 ## الخطوة ٢ — اقرأ بالترتيب
 1. `$LIB/skills/_house-rules/SKILL.md` — دائمًا.
@@ -28,6 +27,9 @@ bash $LIB/external/sync.sh remotion          # أو hyperframes / iart-motion / 
 ```
 
 تُحفظ في `~/.hanin-skills-external/<name>/`. اقرأ `SKILL.md` الرئيسية للحزمة، ثم اتبع توجيهها للمهارة الفرعية قبل كتابة أي كود.
+
+## الهوية الخاصة (خارج GitHub)
+اسم المدرسة وشعارها وألوانها في مجلد Google Drive «هوية المدرسة - خاص». اقرأها عبر رابط Google Drive عند الحاجة، ولا ترفعها إلى هذا المستودع أبدًا.
 
 ## الخطوة ٤ — اعرض ثم نفّذ
 اعرض على حنين الفكرة والتصميم والحركة، وانتظر موافقتها، ثم ابنِ وصدّر وأرسل الملف.
