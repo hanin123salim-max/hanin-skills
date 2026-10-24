@@ -28,6 +28,9 @@ bash $LIB/external/sync.sh remotion          # أو hyperframes / iart-motion / 
 
 تُحفظ في `~/.hanin-skills-external/<name>/`. اقرأ `SKILL.md` الرئيسية للحزمة، ثم اتبع توجيهها للمهارة الفرعية قبل كتابة أي كود.
 
+## مهارات حساب Claude (خارج المستودع)
+`video-edit` و`motion-reel` و`motion-guide` و`live-effects` مرفوعة في حساب Claude، فلا تُسحب من هنا. إن كانت متاحة في الجلسة استدعها بأداة Skill. وإن لم تكن متاحة، فالنسخ الأصلية من بسام (`video-edit.zip` و`motion-reel.zip` والأدلة PDF والبرومتات) في مجلد Google Drive «مكتبة المهارات - خاص» (https://drive.google.com/drive/folders/14AZILX3RoI1YAd6t8kXBWl1i6uh0uD1I): نزّل منه وفكّ في `~/.claude/skills/` بعد إذن حنين. أما `motion-guide` و`live-effects` فمبنيّتان من الأدلة نفسها، وارجع للدليل PDF المقابل إن لم تتوفرا.
+
 ## الهوية الخاصة (خارج GitHub)
 اسم المدرسة وشعارها وألوانها في مجلد Google Drive «هوية المدرسة - خاص». اقرأها عبر رابط Google Drive عند الحاجة، ولا ترفعها إلى هذا المستودع أبدًا.
 
