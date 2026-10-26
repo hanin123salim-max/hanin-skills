@@ -23,7 +23,7 @@ if [ -d "$LIB/.git" ]; then git -C "$LIB" pull --quiet; else git clone --quiet -
 ## الخطوة ٣ — المهارات الخارجية عند الحاجة فقط
 
 ```bash
-bash $LIB/external/sync.sh remotion          # أو hyperframes / iart-motion / iart-ad / iart-explainer / iart-reels / video-use / elevenlabs
+bash $LIB/external/sync.sh remotion          # أو hyperframes / shotcraft / iart-motion / iart-ad / iart-explainer / iart-reels / video-use / elevenlabs
 ```
 
 تُحفظ في `~/.hanin-skills-external/<name>/`. اقرأ `SKILL.md` الرئيسية للحزمة، ثم اتبع توجيهها للمهارة الفرعية قبل كتابة أي كود.

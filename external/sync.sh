@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # يجلب المهارات الخارجية الرسمية بأحدث نسخة من GitHub.
 # الاستخدام:  bash external/sync.sh <name> [<name> ...]   أو   bash external/sync.sh all
-# الأسماء: remotion hyperframes iart-motion iart-ad iart-explainer iart-reels video-use elevenlabs
+# الأسماء: remotion hyperframes shotcraft iart-motion iart-ad iart-explainer iart-reels video-use elevenlabs
 set -euo pipefail
 
 DEST="${SKILLS_CACHE:-$HOME/.hanin-skills-external}"
@@ -9,8 +9,9 @@ mkdir -p "$DEST"
 
 # name|repo|subdir (subdir فارغ = المستودع كاملًا)
 SOURCES=(
-  "remotion|remotion-dev/remotion|packages/skills"
+  "remotion|remotion-dev/skills|skills"
   "hyperframes|heygen-com/hyperframes|skills"
+  "shotcraft|Vincentwei1021/video-shotcraft|"
   "iart-motion|iart-ai/motion-design-skills|"
   "iart-ad|iart-ai/ad-video-skills|"
   "iart-explainer|iart-ai/explainer-video-skills|"

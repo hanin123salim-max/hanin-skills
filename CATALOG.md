@@ -14,8 +14,9 @@
 
 | الاسم | المصدر | الاستخدام | يحتاج مفتاح؟ |
 |---|---|---|---|
-| `remotion` | remotion-dev/remotion → packages/skills | فيديو بالكود (React): أنيميشن، كابشن، تصدير MP4 | لا |
+| `remotion` | remotion-dev/skills → skills | فيديو بالكود (React): أنيميشن، كابشن، تصدير MP4 | لا |
 | `hyperframes` | heygen-com/hyperframes → skills | فيديو من HTML + مكتبة بلوكات وحركات جاهزة + GSAP | لا |
+| `shotcraft` | Vincentwei1021/video-shotcraft | فيديو منتج سينمائي بـ Remotion: 152 بطاقة لقطات جاهزة و209 معاينة حركة | لا |
 | `iart-motion` | iart-ai/motion-design-skills | تايبوغرافي متحرك، انتقالات، موشن احترافي | لا |
 | `iart-ad` | iart-ai/ad-video-skills | إعلانات قصيرة | لا |
 | `iart-explainer` | iart-ai/explainer-video-skills | فيديو شرح تعليمي | لا |
@@ -49,7 +50,7 @@
 | الطلب | المسار |
 |---|---|
 | فيديو الإنجاز الشهري | `monthly-achievement-video` ← `remotion` أو `hyperframes` + `iart-motion` |
-| إعلان مبادرة | `initiative-ad` ← `motion-guide` (الطريقة) + `hyperframes` أو `iart-ad` |
+| إعلان مبادرة | `initiative-ad` ← `motion-guide` (الطريقة) + `hyperframes` أو `shotcraft` أو `iart-ad` |
 | توثيق فعالية | `event-documentation` ← `remotion` (+ `video-use` إن توفر المفتاح) |
 | مقطع كلام (شرح، إعلان بصوتي) | `video-edit` |
 | مؤثر سينمائي على مقطع مصوَّر | `live-effects` ثم `video-edit` للكابشن |
