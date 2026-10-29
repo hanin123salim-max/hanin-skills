@@ -9,6 +9,7 @@
 | `monthly-achievement-video` | فيديو الإنجاز الشهري للمدرسة | 🟡 مسودة — تكتمل في المرحلة الثانية |
 | `initiative-ad` | إعلان/برومو لمبادرة مدرسية أو تطوعية | 🟡 مسودة |
 | `event-documentation` | فيديو توثيق فعالية من صور ومقاطع خام | 🟡 مسودة |
+| `promo-copy` | كتابة نص الإعلان: عنوان، خطّاف، بوستر، كابشن، رسالة واتساب، دعوة للمشاركة (قبل أي إعلان أو توثيق) | ✅ جاهزة |
 | `glass-progress-reel` | ريل عمودي ببطاقات زجاجية وشريط تقدّم (١/٤ ← ٤/٤) لأركان المبادرة أو الخطوات | ✅ جاهزة |
 
 ## ثانيًا: مهارات خارجية رسمية (تُجلب بـ `external/sync.sh <name>`)
@@ -51,7 +52,8 @@
 | الطلب | المسار |
 |---|---|
 | فيديو الإنجاز الشهري | `monthly-achievement-video` ← `remotion` أو `hyperframes` + `iart-motion` |
-| إعلان مبادرة | `initiative-ad` ← `motion-guide` (الطريقة) + `hyperframes` أو `shotcraft` أو `iart-ad` |
+| نص إعلان أو كابشن أو رسالة واتساب لمبادرة/مسابقة | `promo-copy` |
+| إعلان مبادرة | `promo-copy` (النص) ← `initiative-ad` ← `motion-guide` (الطريقة) + `hyperframes` أو `shotcraft` أو `iart-ad` |
 | إعلان مبادرة أركان / خطوات متتالية بأسلوب شريط التقدّم | `glass-progress-reel` ← `remotion` أو `hyperframes` (+ `elevenlabs` للتعليق الصوتي) |
 | توثيق فعالية | `event-documentation` ← `remotion` (+ `video-use` إن توفر المفتاح) |
 | مقطع كلام (شرح، إعلان بصوتي) | `video-edit` |
